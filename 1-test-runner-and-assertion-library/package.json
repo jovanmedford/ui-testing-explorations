@@ -1,12 +1,11 @@
 {
-  "name": "1-node-test",
+  "name": "1-test-runner-and-asseriont-library",
   "version": "1.0.0",
   "description": "Barebones node test, no additional requirements necessary",
   "license": "ISC",
   "author": "Jovan Medford",
   "type": "module",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test"
   }
 }
