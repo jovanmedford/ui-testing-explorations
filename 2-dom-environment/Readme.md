@@ -1,4 +1,4 @@
-# Dom Test
+# DOM Environment
 
 In this example we add the ability to perform tests similar to how testEnvironment: "jsdom" would behave.
 
@@ -7,7 +7,7 @@ The goal is to add another ingredient to the test runner + assertion library set
 ## Running The Test
 To run the test, simply run:
 
-```node --test```
+```npm run test```
 
 ## Runtime Environment
 This example aims to show how testEnvironment: "jsdom" behaves. However, it's still just a node enivronment even though we've added jsdom. 
